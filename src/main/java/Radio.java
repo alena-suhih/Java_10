@@ -2,11 +2,11 @@ public class Radio {
     private int currentRadioStation;
     private int currentVolume;
 
-    public int getCurrentRadioStation () {
+    public int getCurrentRadioStation() {
         return currentRadioStation;
     }
 
-    public int getCurrentVolume () {
+    public int getCurrentVolume() {
         return currentVolume;
     }
 
@@ -55,6 +55,4 @@ public class Radio {
             currentVolume = 0;
         }
     }
-
-
 }
